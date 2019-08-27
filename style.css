@@ -7,7 +7,7 @@ body {
 #parent {
     display: grid;
     grid-gap: 1em;
-        grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
 }
 
 header, footer {
@@ -39,6 +39,25 @@ footer {
     grid-column: auto / span 3;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.qual {
+    grid-column: auto / span 3;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+    background: #eaeaea;
+
+}
+.intro {
+    padding: 0;
+    grid-gap: 10px;
+    grid-column: auto / span 3;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1.5fr;
     align-items: center;
     justify-content: center;
 }
